@@ -1,5 +1,10 @@
 import tailwindcss from "../assets/tailwindcss.png"
 import react from "../assets/react.png"
+import nextjs from "../assets/nextjs.png"
+import typescript from "../assets/typescript.png"
+import redux from "../assets/redux.png"
+import github from "../assets/github2.png"
+
 
 export const frameworkAndTechnologies = [
   {
@@ -7,15 +12,23 @@ export const frameworkAndTechnologies = [
     image: tailwindcss
   },
   {
-    title: "React",
+    title: "Next.Js",
+    image: nextjs
+  },
+  {
+    title: "React.Js",
     image: react
   },
   {
-    title: "TailwindCSS",
-    image: tailwindcss
+    title: "Typescript",
+    image: typescript
   },
   {
-    title: "TailwindCSS",
-    image: tailwindcss
-  }
+    title: "Redux",
+    image: redux
+  },
+  {
+    title: "Github",
+    image: github
+  },
 ]
