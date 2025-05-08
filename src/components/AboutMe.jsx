@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import externalLink from "../assets/external-link.png"
+import { frameworkAndTechnologies } from "../utils/frameworkAndTechnologies.js"
 
 function AboutMe() {
   return (
@@ -15,12 +16,25 @@ function AboutMe() {
         </p>
         <div className="mt-5 max-w-[180px]">
           <Link to="mailto: olayemisuccess7@gmail.com" className="flex items-center justify-between px-5 pt-2 pb-2 bg-[#298E77] 
-            text-white font-extrabold rounded-lg cursor-pointer shadow-[0_0_10px_#D9D9D9C9] hover:shadow-[0_0_20px_#D9D9D9C9] 
+            text-white font-extrabold rounded-full cursor-pointer shadow-[0_0_10px_#D9D9D9C9] hover:shadow-[0_0_20px_#D9D9D9C9] 
             transition-shadow duration-300"
           >
             <span>Send an email</span>
             <img src={externalLink} alt="link" className="w-[25px] h-[25px]"/>
           </Link>
+        </div>
+        <div className="mt-8 lg:mt-4">
+          <h1 className="text-[#FFFFFF] text-center font-bold text-[1.8rem] sm:text-[2rem] md:text-[2rem]">
+            My Frameworks / Technologies
+          </h1>
+          <div className="flex flex-wrap items-center justify-center gap-y-6 gap-x-8 mt-4">
+            {frameworkAndTechnologies.map((framework) => (
+              <div className="bg-black flex items-center px-3 py-1 rounded-full">
+                <p className="text-white font-semibold me-2">{framework.title}</p>
+                <img src={framework.image} alt={framework.title} />
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </main>

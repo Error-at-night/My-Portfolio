@@ -16,7 +16,7 @@ function Header() {
             Building your dream <span className="text-[#298E77]">pixel</span> by <span className="text-[#298E77]">pixel</span>!
           </h1>
           <Link className="flex justify-between items-center max-w-[154px] mx-auto mt-6 px-5 pt-2 pb-2 bg-[#298E77]
-            text-white font-extrabold rounded-lg cursor-pointer shadow-[0_0_10px_#D9D9D9C9] 
+            text-white font-extrabold rounded-full cursor-pointer shadow-[0_0_10px_#D9D9D9C9] 
             hover:shadow-[0_0_20px_#D9D9D9C9] transition-shadow duration-300"
             target="_blank"
             to="/assets/SUCCESS-OLAYEMI-RESUME.pdf"
