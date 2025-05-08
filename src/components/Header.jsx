@@ -12,7 +12,7 @@ function Header() {
       <div className="absolute inset-0 flex items-center justify-center text-center px-4">
         <div>
           <h1 className="text-white text-[1.9rem] sm:text-[2rem] md:text-[3rem] font-extrabold max-w-[700px]">
-            Hey, I am a <span className="text-[#298E77]">Frontend</span> Developer. 
+            Hey, I am a <span className="text-[#298E77]">Frontend Developer</span>. 
             Building your dream <span className="text-[#298E77]">pixel</span> by <span className="text-[#298E77]">pixel</span>!
           </h1>
           <Link className="flex justify-between items-center max-w-[154px] mx-auto mt-6 px-5 pt-2 pb-2 bg-[#298E77]
