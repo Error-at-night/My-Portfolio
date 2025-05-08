@@ -28,7 +28,7 @@ export const frameworkAndTechnologies = [
     image: redux
   },
   {
-    title: "Github",
+    title: "Git and Github",
     image: github
   },
 ]
