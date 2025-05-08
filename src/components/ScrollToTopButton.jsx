@@ -26,8 +26,8 @@ const ScrollToTopButton = () => {
       {showButton && (
         <button onClick={scrollToTop} title="Go to top"
           className="cursor-pointer h-[50px] w-[50px] rounded-full fixed bottom-[20px]
-            right-[30px] z-99 bg-white shadow-[0_0_10px_#298E77] hover:shadow-[0_0_20px_#298E77]
-            text-black
+            right-[30px] z-99 bg-[#298E77] shadow-[0_0_10px_#298E77] hover:shadow-[0_0_20px_#298E77]
+            text-white
           "
         >
           <ArrowUpIcon width={25} height={25} className='mx-auto text-center'/>
