@@ -30,9 +30,9 @@ function Projects() {
             </div>
           ))}
         </div>
-        <Link to="" className="flex items-center justify-between px-5 pt-3 pb-3 bg-[#298E77] max-w-[220px] mx-auto mt-10
-          text-white font-extrabold rounded-full cursor-pointer shadow-[0_0_10px_#D9D9D9C9] hover:shadow-[0_0_20px_#D9D9D9C9] 
-          transition-shadow duration-300"
+        <Link to="more-projects" className="flex items-center justify-between px-5 pt-3 pb-3 bg-[#298E77] 
+          max-w-[220px] mx-auto mt-10 text-white font-extrabold rounded-full cursor-pointer shadow-[0_0_10px_#D9D9D9C9] 
+          hover:shadow-[0_0_20px_#D9D9D9C9] transition-shadow duration-300"
         >
           <span>View More Projects</span>
           <img src={arrow} alt="arrow" className="mt-1 w-[18px] h-auto ms-1"/>

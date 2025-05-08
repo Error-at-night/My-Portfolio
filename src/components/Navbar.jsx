@@ -69,7 +69,7 @@ function Navbar() {
                     <img src={chevronRight} className="w-[20px] h-[25px]"/>
                   </ScrollLink>
                 ))}
-                <ScrollLink to="mailto: olayemisuccess7@gmail.com" className="text-white cursor-pointer font-bold
+                <ScrollLink to="contact-me" className="text-white cursor-pointer font-bold
                   flex items-center justify-between px-6"
                   onClick={() => setOpenSidebar(open => !open)}
                 >
