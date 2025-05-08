@@ -9,7 +9,7 @@ function Projects() {
         <div className="grid grid-cols-12 sm:gap-x-12 gap-y-10 mt-6">
           {projects.map((project) => (
             <div key={project.title} 
-              className="col-span-12 sm:col-span-12 md:col-span-6 pb-6 bg-[#1A1A1A] w-full rounded-t-2xl shadow-[0_0_5px_#298E77]"
+              className="col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-4 pb-6 bg-[#1A1A1A] w-full rounded-t-2xl shadow-[0_0_4px_#298E77]"
             >
               <img src={project.image} className="w-full h-[200px] sm:h-[280px] rounded-t-2xl"/>
               <div className="text-white px-4">

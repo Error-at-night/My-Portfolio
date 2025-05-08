@@ -7,7 +7,8 @@ function AboutMe() {
     <main className="custom-gradient px-8 pt-3 pb-12" id="about-me">
       <div className="mx-auto max-w-[1200px] mt-6">
         <h1 className="text-[#FFFFFF] font-extrabold text-[1.9rem] sm:text-[2rem] md:text-[2.5rem]">About Me</h1>
-        <p className="text-white text-[1rem] sm:text-[1.3rem] mt-2 sm:tracking-wide leading-normal sm:leading-loose">My name is Success Olayemi, I'm Frontend 
+        <p className="text-white text-[1rem] sm:text-[1.3rem] mt-2 sm:tracking-wide leading-normal sm:leading-loose">
+          My name is Success Olayemi, I'm Frontend 
           Developer that is passionate about developing web applications that solves real problems. I have had the 
           opportunity to teach and mentor aspiring frontend developers, helping them understand modern web technologies and adopt 
           best practices. I enjoy simplifying complex concepts and guiding others to become better developers. I am always open 
@@ -29,7 +30,9 @@ function AboutMe() {
           </h1>
           <div className="flex flex-wrap items-center justify-center gap-y-6 gap-x-8 mt-4">
             {frameworkAndTechnologies.map((framework) => (
-              <div className="bg-black flex items-center px-3 py-1 rounded-full">
+              <div className="bg-black flex items-center px-3 py-1 rounded-full 
+                shadow-[0_0_10px_#298E77] hover:shadow-[0_0_20px_#298E77]" key={framework.title}
+              >
                 <p className="text-white font-semibold me-2">{framework.title}</p>
                 <img src={framework.image} alt={framework.title} />
               </div>
