@@ -38,7 +38,7 @@ function Navbar() {
           </ScrollLink>
         ))}
         <ScrollLink to="contact-me"
-          className="mx-auto px-5 pt-2 pb-2 bg-[#298E77] text-white font-extrabold rounded-full cursor-pointer
+          className="mx-auto px-5 pt-3 pb-3 bg-[#298E77] text-white font-extrabold rounded-full cursor-pointer
           shadow-[0_0_10px_#D9D9D9C9] hover:shadow-[0_0_20px_#D9D9D9C9] transition-shadow duration-300"
         >
           Contact me

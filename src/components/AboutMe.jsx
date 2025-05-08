@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import externalLink from "../assets/external-link.png"
+import arrow from "../assets/arrow-up-right.png"
 import { frameworkAndTechnologies } from "../utils/frameworkAndTechnologies.js"
 
 function AboutMe() {
@@ -17,12 +17,12 @@ function AboutMe() {
           Let us connect and build something amazing together.
         </p>
         <div className="mt-5 max-w-[180px]">
-          <Link to="mailto: olayemisuccess7@gmail.com" className="flex items-center justify-between px-5 pt-2 pb-2 bg-[#298E77] 
+          <Link to="mailto: olayemisuccess7@gmail.com" className="flex items-center justify-between px-5 pt-3 pb-3 bg-[#298E77] 
             text-white font-extrabold rounded-full cursor-pointer shadow-[0_0_10px_#D9D9D9C9] hover:shadow-[0_0_20px_#D9D9D9C9] 
             transition-shadow duration-300"
           >
             <span>Send an email</span>
-            <img src={externalLink} alt="link" className="w-[25px] h-[25px]"/>
+            <img src={arrow} alt="arrow" className="mt-1 w-[18px] h-auto"/>
           </Link>
         </div>
         <div className="mt-8 lg:mt-4">
