@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
-import Layout from "./page/Layout"
-import MoreProjects from "./page/MoreProjects"
+import Layout from "./pages/Layout"
+import MoreProjects from "./pages/MoreProjects"
 
 function App() {
   return (

@@ -1,7 +1,7 @@
 import Navbar from "./Navbar"
 import banner from "../assets/banner.png"
 import arrow from "../assets/arrow-up-right.png"
-import { Link } from "react-router-dom"
+import resume from '../assets/SUCCESS-OLAYEMI-RESUME.pdf';
 
 function Header() {
   return (
@@ -15,16 +15,16 @@ function Header() {
             Hey, I am a <span className="text-[#298E77]">Frontend Developer</span>. 
             Building your dream <span className="text-[#298E77]">pixel</span> by <span className="text-[#298E77]">pixel</span>!
           </h1>
-          <Link className="flex justify-between items-center max-w-[154px] mx-auto mt-6 px-5 pt-3 pb-3 bg-[#298E77]
+          <a className="flex justify-between items-center max-w-[154px] mx-auto mt-6 px-5 pt-3 pb-3 bg-[#298E77]
             text-white font-extrabold rounded-full cursor-pointer shadow-[0_0_10px_#D9D9D9C9] 
             hover:shadow-[0_0_20px_#D9D9D9C9] transition-shadow duration-300"
+            href={resume}
+            download
             target="_blank"
-            to="/assets/SUCCESS-OLAYEMI-RESUME.pdf"
-            download="Success Olayemi Resume"
           >
             <span>My Resume</span>
             <img src={arrow} alt="arrow" className="mt-1 w-[18px] h-auto ms-1"/>
-          </Link>
+          </a>
         </div>
       </div>
       <Navbar/>
