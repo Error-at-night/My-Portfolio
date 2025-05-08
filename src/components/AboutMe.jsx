@@ -16,8 +16,8 @@ function AboutMe() {
           better developers. I am always open to learning new frameworks and technologies to deliver the best results. 
           Let us connect and build something amazing together.
         </p>
-        <div className="mt-5 max-w-[180px]">
-          <Link to="mailto: olayemisuccess7@gmail.com" className="flex items-center justify-between px-5 pt-3 pb-3 bg-[#298E77] 
+        <div className="mt-5">
+          <Link to="mailto: olayemisuccess7@gmail.com" className="max-w-[175px] flex items-center justify-between px-5 pt-3 pb-3 bg-[#298E77] 
             text-white font-extrabold rounded-full cursor-pointer shadow-[0_0_10px_#D9D9D9C9] hover:shadow-[0_0_20px_#D9D9D9C9] 
             transition-shadow duration-300"
           >
