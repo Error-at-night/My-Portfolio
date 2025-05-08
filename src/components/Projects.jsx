@@ -11,7 +11,7 @@ function Projects() {
             <div key={project.title} 
               className="col-span-12 sm:col-span-12 md:col-span-6 pb-6 bg-[#1A1A1A] w-full rounded-t-2xl shadow-[0_0_5px_#298E77]"
             >
-              <img src={project.image} className="w-full"/>
+              <img src={project.image} className="w-full h-[280px] rounded-t-2xl"/>
               <div className="text-white px-4">
                 <div className="flex items-center justify-between">
                   <div className="flex items-center mt-5">
