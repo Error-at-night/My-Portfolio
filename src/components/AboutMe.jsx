@@ -25,7 +25,7 @@ function AboutMe() {
         <p className="text-white text-[1rem] sm:text-[1.3rem] mt-7 sm:tracking-wide leading-normal sm:leading-loose">
           I have had the opportunity to teach and mentor aspiring frontend developers, helping them understand 
           modern web technologies and adopt best practices. I enjoy simplifying complex concepts and guiding others to become 
-          better developers. I am always open to learning new frameworks and technologies to deliver the best results. 
+          better developers. I am always open to learning other frameworks and technologies to deliver the best results. 
           Let us connect and build something amazing together.
         </p>
         <div className="mt-5">

@@ -12,7 +12,7 @@ export const projects = [
     image: eLearingApp,
     icon: externalLink,
     link: "https://ksp-cps-department.vercel.app/home",
-    about: "A web app that helps students access learning materials, take quizzes, and calculate their CGPA. It features authentication and CRUD operations with Supabase, data fetching with React Query, form management via React Hook Form, and styling with React-Bootstrap and Sass.",
+    about: "A web application built to help students access learning materials, take quizzes, and calculate their CGPA. Built with Supabase for authentication and CRUD operations, React Query for data fetching, React Hook Form for form validation, and styled using React-Bootstrap and Sass.",
     number: "01",
     title: "E-Learning App",
     techStack: "React, Supabase, React-Query, React-Hook-Form, React-Bootstrap, Sass"
@@ -21,7 +21,7 @@ export const projects = [
     image: frontendQuiz,
     icon: externalLink,
     link: "https://github.com/Error-at-night/frontend-quiz-app",
-    about: "Frontend Quiz is a web app built to test knowledge of HTML, CSS, JavaScript, and Accessibility. Users can select a subject, answer multiple choice questions with instant feedback, view their final score and toggle between light and dark mode.",
+    about: "Frontend Quiz is a web application built to test users' knowledge of HTML, CSS, JavaScript, and Accessibility. Users can select a subject, answer multiple choice questions with instant feedback, view their final score, and toggle between light and dark mode for better user experience.",
     number: "02",
     title: "Frontend Quiz",
     techStack: "React, TailwindCSS, ContextAPI"
@@ -39,7 +39,7 @@ export const projects = [
     image: sushiFood,
     icon: externalLink,
     link: "https://error-at-night.github.io/Sushi-food/index/index.html",
-    about: "Sushi Food is a web app built for a fictional sushi restaurant. Users can explore a variety of sushi dishes, add them to their cart, and easily find their favorites using the search feature.",
+    about: "Sushi Food is a web application built for a sushi restaurant. Users can explore a variety of sushi dishes, add them to their cart, and easily find their favorites using the search feature.",
     number: "04",
     title: "Sushi Food",
     techStack: "HTML, Bootstrap, Sass, Javascript"
@@ -48,7 +48,7 @@ export const projects = [
     image: multistepForm,
     icon: externalLink,
     link: "https://multi-step-form-success.vercel.app/",
-    about: "Multi-Step Form is a web app that guides users through a step by step process to enter and review their information. Users can navigate between steps, update selections, and view a final summary before confirming. The app features real time form validation.",
+    about: "Multi-Step Form is a web application that guides users through a step by step process to input and review their information. Users can easily navigate between steps, update their selections, and view a final summary before confirming. The app also features real time form validation.",
     number: "05",
     title: "Multi-step Form",
     techStack: "React, TailwindCSS, Redux, React-Hook-Form"
