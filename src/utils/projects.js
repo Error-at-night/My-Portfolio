@@ -30,7 +30,7 @@ export const projects = [
     image: ecommerce,
     icon: externalLink,
     link: "https://frontendmentor-challenge-ecommerce-site.vercel.app/",
-    about: "This ecommerce website showcases a curated selection of clothes and footwear through an interactive lightbox gallery and thumbnail navigation. Users can add or remove items from their cart, view their cart items, and receive instant toast notifications.",
+    about: "This ecommerce website showcases a curated selection of clothes and footwears through an interactive lightbox gallery and thumbnail navigation. Users can add or remove items from their cart, view their cart items, and receive instant toast notifications.",
     number: "03",
     title: "Ecommerce Website",
     techStack: "React, React-Bootstrap, Sass, ContextAPI"
