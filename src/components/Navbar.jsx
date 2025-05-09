@@ -33,7 +33,9 @@ function Navbar() {
     <nav className="absolute top-0 w-full py-6 px-8 flex items-center">
       <div className="hidden sm:flex items-center ms-auto">
         {navLinks.map((navLink) => (
-          <ScrollLink to={navLink.id} key={navLink.title} className="text-white px-8 cursor-pointer font-bold">
+          <ScrollLink to={navLink.id} key={navLink.title} className="text-white px-8 cursor-pointer font-bold
+            hover:scale-110 transition-scale duration-300"
+            >
             {navLink.title}
           </ScrollLink>
         ))}
