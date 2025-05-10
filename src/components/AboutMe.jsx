@@ -7,15 +7,6 @@ function AboutMe() {
     <main className="custom-gradient px-8 pt-3 pb-12" id="about-me">
       <div className="mx-auto max-w-[1200px] mt-6">
         <h1 className="text-[#FFFFFF] font-extrabold text-[1.9rem] sm:text-[2rem] md:text-[2.5rem]">About Me</h1>
-        {/* <p className="text-white text-[1rem] sm:text-[1.3rem] mt-2 sm:tracking-wide leading-normal sm:leading-loose">
-          My name is Success Olayemi, I'm Frontend Developer that is passionate about developing web applications that solves 
-          real problems. With a solid foundation in HTML, CSS, and JavaScript, I specialize in modern frameworks and technologies like 
-          NextJs, ReactJs, TypeScript, Redux, React-Query (TanStack), Axios, React-Hook-Form, Supabase, TailwindCSS, ShadcnUI, 
-          Bootstrap, and Git. I have had the opportunity to teach and mentor aspiring frontend developers, helping them understand 
-          modern web technologies and adopt best practices. I enjoy simplifying complex concepts and guiding others to become 
-          better developers. I am always open to learning new frameworks and technologies to deliver the best results. 
-          Let us connect and build something amazing together.
-        </p> */}
         <p className="text-white text-[1rem] sm:text-[1.3rem] mt-2 sm:tracking-wide leading-normal sm:leading-loose">
           My name is Success Olayemi, I'm Frontend Developer that is passionate about developing web applications that solves 
           real problems. With a solid foundation in HTML, CSS, and JavaScript, I specialize in modern frameworks and technologies like 
@@ -25,8 +16,9 @@ function AboutMe() {
         <p className="text-white text-[1rem] sm:text-[1.3rem] mt-7 sm:tracking-wide leading-normal sm:leading-loose">
           I have had the opportunity to teach and mentor aspiring frontend developers, helping them understand 
           modern web technologies and adopt best practices. I enjoy simplifying complex concepts and guiding others to become 
-          better developers. I am always open to learning other frameworks and technologies to deliver the best results. 
-          Let us connect and build something amazing together.
+          better developers. I am also looking forward to expanding my skills into backend development to broaden my expertise 
+          and build more robust, full-stack solutions.  I am always open to learning other frameworks and technologies to deliver 
+          the best results. Let us connect and build something amazing together.
         </p>
         <div className="mt-5">
           <Link to="mailto: olayemisuccess7@gmail.com" className="max-w-[175px] flex items-center justify-between px-5 pt-3 pb-3 bg-[#298E77] 
