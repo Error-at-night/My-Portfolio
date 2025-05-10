@@ -3,6 +3,7 @@ import { navLinks } from "../utils/navLinks"
 import hamburger from "../assets/hamburger.png"
 import close from "../assets/close.png"
 import chevronRight from "../assets/chevron-right.png"
+import logo from "../assets/logo.png"
 import { useEffect, useRef, useState } from "react"
 import { socialMedia } from "../utils/socialMedia"
 import { Link as ScrollLink } from "react-scroll"
@@ -31,20 +32,25 @@ function Navbar() {
 
   return (
     <nav className="absolute top-0 w-full py-6 px-8 flex items-center">
-      <div className="hidden sm:flex items-center ms-auto">
-        {navLinks.map((navLink) => (
-          <ScrollLink to={navLink.id} key={navLink.title} className="text-white px-8 cursor-pointer font-bold
-            hover:scale-110 transition-scale duration-300"
-            >
-            {navLink.title}
-          </ScrollLink>
-        ))}
-        <Link to="mailto: olayemisuccess7@gmail.com"
-          className="mx-auto px-5 pt-3 pb-3 bg-[#298E77] text-white font-extrabold rounded-full cursor-pointer
-          shadow-[0_0_10px_#D9D9D9C9] hover:shadow-[0_0_20px_#D9D9D9C9] transition-shadow duration-300"
-        >
-          Contact me
-        </Link>
+      <div className="hidden sm:flex items-center justify-between w-full">
+        <div>
+          <img src={logo} alt="logo" className="size-[90px]"/>
+        </div>
+        <div>
+          {navLinks.map((navLink) => (
+            <ScrollLink to={navLink.id} key={navLink.title} className="text-white px-8 cursor-pointer font-bold
+              hover:scale-110 transition duration-300"
+              >
+              {navLink.title}
+            </ScrollLink>
+          ))}
+          <Link to="mailto: olayemisuccess7@gmail.com"
+            className="mx-auto px-5 pt-3 pb-3 bg-[#298E77] text-white font-extrabold rounded-full cursor-pointer
+            shadow-[0_0_10px_#D9D9D9C9] hover:shadow-[0_0_20px_#D9D9D9C9] transition-shadow duration-300"
+          >
+            Contact me
+          </Link>
+        </div>
       </div>
       {/* mobile navbar */}
       <div className="flex items-center ms-auto sm:hidden">
