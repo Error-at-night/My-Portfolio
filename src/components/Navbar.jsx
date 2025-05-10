@@ -32,10 +32,10 @@ function Navbar() {
 
   return (
     <nav className="absolute top-0 w-full py-6 px-8 flex items-center">
-      <div className="hidden sm:flex items-center justify-between w-full">
-        <div>
+      <div className="hidden md:flex items-center justify-between w-full">
+        <Link to="/">
           <img src={logo} alt="logo" className="size-[90px]"/>
-        </div>
+        </Link>
         <div>
           {navLinks.map((navLink) => (
             <ScrollLink to={navLink.id} key={navLink.title} className="text-white px-8 cursor-pointer font-bold
@@ -53,7 +53,7 @@ function Navbar() {
         </div>
       </div>
       {/* mobile navbar */}
-      <div className="flex items-center ms-auto sm:hidden">
+      <div className="flex items-center ms-auto md:hidden">
         <button className="cursor-pointer" onClick={() => setOpenSidebar(open => !open)}>
           <img src={hamburger} alt="hamburger" className="w-[30px] h-[35px]"/>
         </button>
@@ -61,13 +61,20 @@ function Navbar() {
       {openSidebar &&
         <div className="fixed inset-0 z-10">
           <div className="z-10 w-full sm:w-[400px] bg-[#081B17] text-white pt-10 h-full min-h-screen" ref={sidebar}>
-            <button onClick={() => setOpenSidebar(open => !open)}
-              className="top-6 right-5 sm:left-87 absolute w-[30px] h-[35px] cursor-pointer"  
-            >
-              <img src={close} alt="close-button" width={30} />
-            </button>
+            <div className="flex items-center justify-between -mt-7">
+              {/* <div> */}
+                <Link to="/">
+                  <img src={logo} alt="logo" className="h-[70px] w-[80px] ps-4"/>
+                </Link>
+              {/* </div> */}
+              <button onClick={() => setOpenSidebar(open => !open)}
+                className="top-6 right-5 sm:left-87 absolute w-[30px] h-[35px] cursor-pointer"  
+              >
+                <img src={close} alt="close-button" width={30} />
+              </button>
+            </div>
             <div className="w-full sm:w-[400px] h-full">
-              <div className="flex flex-col pt-16 gap-y-12">
+              <div className="flex flex-col pt-16 gap-y-12 -mt-5">
                 {navLinks.map((navLink) => (
                   <ScrollLink to={navLink.id} key={navLink.title} className="text-white cursor-pointer font-bold
                     flex items-center justify-between px-6"
