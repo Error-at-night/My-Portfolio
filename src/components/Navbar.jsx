@@ -34,7 +34,7 @@ function Navbar() {
     <nav className="absolute top-0 w-full py-6 px-8 flex items-center">
       <div className="hidden md:flex items-center justify-between w-full">
         <Link to="/">
-          <img src={logo} alt="logo" className="size-[90px]"/>
+          <img src={logo} alt="logo" className="h-[90px] w-[70px]"/>
         </Link>
         <div>
           {navLinks.map((navLink) => (
@@ -55,7 +55,7 @@ function Navbar() {
       {/* mobile navbar */}
       <div className="flex items-center justify-between w-full md:hidden">
         <Link to="/">
-          <img src={logo} alt="logo" className="h-[70px] w-[80px]"/>
+          <img src={logo} alt="logo" className="h-[90px] w-[70px]"/>
         </Link>
         <button className="cursor-pointer" onClick={() => setOpenSidebar(open => !open)}>
           <img src={hamburger} alt="hamburger" className="w-[30px] h-[35px]"/>
@@ -66,7 +66,7 @@ function Navbar() {
           <div className="z-10 w-full sm:w-[400px] bg-[#081B17] text-white pt-10 h-full min-h-screen" ref={sidebar}>
             <div className="flex items-center justify-between -mt-7">
               <Link to="/">
-                <img src={logo} alt="logo" className="h-[70px] w-[80px] ps-4"/>
+                <img src={logo} alt="logo" className="h-[90px] w-[70px] ps-4"/>
               </Link>
               <button onClick={() => setOpenSidebar(open => !open)}
                 className="top-6 right-5 sm:left-87 absolute w-[30px] h-[35px] cursor-pointer"  
