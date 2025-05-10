@@ -9,7 +9,7 @@ function Header() {
       <div>
       <img src={banner} className="w-full h-[70vh] md:h-[80vh] lg:h-[90vh] object-cover" alt="Banner"/>
       </div>
-      <div className="absolute inset-0 mt-10 flex items-center justify-center text-center px-4">
+      <div className="absolute inset-0 flex items-center justify-center text-center px-4">
         <div>
           <h1 className="text-white text-[1.9rem] sm:text-[2rem] md:text-[3rem] font-extrabold max-w-[700px]">
             Hey, I am a <span className="text-[#298E77]">Frontend Developer</span>. 

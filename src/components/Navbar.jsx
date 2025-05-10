@@ -55,7 +55,7 @@ function Navbar() {
       {/* mobile navbar */}
       <div className="flex items-center justify-between w-full md:hidden">
         <Link to="/">
-          <img src={logo} alt="logo" className="h-[90px] w-[70px]"/>
+          <img src={logo} alt="logo" className="h-[70px] w-[50px]"/>
         </Link>
         <button className="cursor-pointer" onClick={() => setOpenSidebar(open => !open)}>
           <img src={hamburger} alt="hamburger" className="w-[30px] h-[35px]"/>
