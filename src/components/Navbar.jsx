@@ -69,7 +69,7 @@ function Navbar() {
                 <img src={logo} alt="logo" className="h-[90px] w-[70px] ps-4"/>
               </Link>
               <button onClick={() => setOpenSidebar(open => !open)}
-                className="top-6 right-5 sm:left-87 absolute w-[30px] h-[35px] cursor-pointer"  
+                className="top-10 right-5 sm:left-87 absolute w-[30px] h-[35px] cursor-pointer"  
               >
                 <img src={close} alt="close-button" width={30} />
               </button>
