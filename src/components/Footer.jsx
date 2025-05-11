@@ -4,7 +4,7 @@ import { socialMedia } from "../utils/socialMedia"
 
 function Footer(){
   return (
-    <footer className="relative">
+    <footer className="relative" id="contact-me">
       <div>
         <img src={footerBackground} className="w-full h-[60vh] sm:h-[70vh] object-cover" alt="banner"/>
       </div>

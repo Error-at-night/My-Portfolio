@@ -40,16 +40,20 @@ function Navbar() {
           {navLinks.map((navLink) => (
             <ScrollLink to={navLink.id} key={navLink.title} className="text-white px-8 cursor-pointer font-bold
               hover:scale-110 transition duration-300"
+              smooth={true}      
+              duration={500}
               >
               {navLink.title}
             </ScrollLink>
           ))}
-          <Link to="mailto: olayemisuccess7@gmail.com"
+          <ScrollLink to="contact-me"
             className="mx-auto px-5 pt-3 pb-3 bg-[#298E77] text-white font-extrabold rounded-full cursor-pointer
             shadow-[0_0_10px_#D9D9D9C9] hover:shadow-[0_0_20px_#D9D9D9C9] transition-shadow duration-300"
+            smooth={true}      
+            duration={500}
           >
             Contact me
-          </Link>
+          </ScrollLink>
         </div>
       </div>
       {/* mobile navbar */}
@@ -79,6 +83,8 @@ function Navbar() {
                 {navLinks.map((navLink) => (
                   <ScrollLink to={navLink.id} key={navLink.title} className="text-white cursor-pointer font-bold
                     flex items-center justify-between px-6"
+                    smooth={true}      
+                    duration={500}
                     onClick={() => setOpenSidebar(open => !open)}
                   >
                     <span>{navLink.title}</span>
@@ -87,6 +93,8 @@ function Navbar() {
                 ))}
                 <ScrollLink to="contact-me" className="text-white cursor-pointer font-bold
                   flex items-center justify-between px-6"
+                  smooth={true}      
+                  duration={500}
                   onClick={() => setOpenSidebar(open => !open)}
                 >
                   <span>Contact me</span>

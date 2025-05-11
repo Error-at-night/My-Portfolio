@@ -5,7 +5,7 @@ import resume from '../assets/SUCCESS-OLAYEMI-RESUME.pdf';
 
 function Header() {
   return (
-    <header className="relative">
+    <header className="relative" id="home">
       <div>
         <img src={banner} className="w-full h-[70vh] md:h-[80vh] lg:h-[90vh] object-cover" alt="Banner"/>
       </div>
