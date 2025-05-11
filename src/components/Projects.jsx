@@ -4,7 +4,7 @@ import { projects } from "../utils/projects"
 
 function Projects() {
   return (
-    <main className="bg-[#040E0C] px-8 pt-3 pb-12" id="projects">
+    <main className="bg-[#040E0C] px-8 pt-3 pb-14" id="projects">
       <div className="max-w-[1200px] mx-auto mt-6">
         <h1 className="text-[#FFFFFF] font-extrabold text-[1.9rem] sm:text-[2rem] md:text-[2.5rem]">My Projects</h1>
         <div className="grid grid-cols-12 sm:gap-x-12 gap-y-10 mt-6">

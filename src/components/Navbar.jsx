@@ -96,7 +96,7 @@ function Navbar() {
               <div className="px-6 pt-12 flex items-center justify-center gap-x-6">
                 {socialMedia.map((social) => (
                   <Link to={social.to} key={social.title}>
-                    <img src={social.image} alt={social.title} className="w-6 h-6 bg-white"/>
+                    <img src={social.image} alt={social.title} className="w-8 h-8 px-2 bg-white"/>
                   </Link>
                 ))}
               </div>
