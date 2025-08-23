@@ -45,20 +45,11 @@ export const projects = [
     techStack: "HTML, Bootstrap, Sass, Javascript"
   },
   {
-    image: interactiveCommentSection,
-    icon: externalLink,
-    link: "https://web.facebook.com/reel/1992032044575378/?s=fb_shorts_profile&stack_idx=0",
-    about: "An interactive comment section where you can write, reply, edit, and delete comment.",
-    number: "04",
-    title: "Interactive Comment Section",
-    techStack: "React.js, TailwindCSS, RTK Query, React-Hook-Form"
-  },
-  {
     image: multistepForm,
     icon: externalLink,
     link: "https://multi-step-form-success.vercel.app/",
     about: "Multi-Step Form is a web application that guides users through a step by step process to input and review their information. Users can easily navigate between steps, update their selections, and view a final summary before confirming. The app also features real time form validation.",
-    number: "05",
+    number: "04",
     title: "Multi-step Form",
     techStack: "React.js, TailwindCSS, Redux, React-Hook-Form"
   },
@@ -67,8 +58,17 @@ export const projects = [
     icon: externalLink,
     link: "https://easy-bank-success.vercel.app/",
     about: "A modern landing page for Easybank that highlights its digital banking features, articles, and customer benefits.",
-    number: "06",
+    number: "05",
     title: "Easy Bank",
     techStack: "React.js, React-Bootstrap, Sass"
-  }
+  },
+  {
+    image: interactiveCommentSection,
+    icon: externalLink,
+    link: "https://web.facebook.com/reel/1992032044575378/?s=fb_shorts_profile&stack_idx=0",
+    about: "An interactive comment section where you can write, reply, edit, and delete comment.",
+    number: "04",
+    title: "Interactive Comment Section",
+    techStack: "React.js, TailwindCSS, RTK Query, React-Hook-Form"
+  },
 ]
