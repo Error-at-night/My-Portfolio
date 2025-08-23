@@ -67,7 +67,7 @@ export const projects = [
     icon: externalLink,
     link: "https://web.facebook.com/reel/1992032044575378/?s=fb_shorts_profile&stack_idx=0",
     about: "An interactive comment section where you can write, reply, edit, and delete comment.",
-    number: "04",
+    number: "06",
     title: "Interactive Comment Section",
     techStack: "React.js, TailwindCSS, RTK Query, React-Hook-Form"
   },
