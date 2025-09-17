@@ -30,7 +30,7 @@ export const projects = [
     image: ecommerce,
     icon: externalLink,
     link: "https://frontendmentor-challenge-ecommerce-site.vercel.app/",
-    about: "This ecommerce website showcases a curated selection of clothes and footwears through an interactive lightbox gallery and thumbnail navigation. Users can add or remove items from their cart, view their cart items, and receive instant toast notifications.",
+    about: "This ecommerce website showcases a curated selection of clothes and footwears through an interactive lightbox gallery and thumbnail navigation. Users can add or remove items from their cart, view their cart, and receive instant toast notifications.",
     number: "02",
     title: "Ecommerce Website",
     techStack: "React.js, React-Bootstrap, Sass, ContextAPI"
@@ -39,7 +39,7 @@ export const projects = [
     image: sushiFood,
     icon: externalLink,
     link: "https://error-at-night.github.io/Sushi-food/index/index.html",
-    about: "Sushi Food is a web application built for a sushi restaurant. Users can explore a variety of sushi dishes, add them to their cart, and easily find their favorites using the search feature.",
+    about: "Sushi Food is a web application where users can explore a variety of sushi dishes, add them to their cart, and easily find their favorite dish using the search feature.",
     number: "03",
     title: "Sushi Food",
     techStack: "HTML, Bootstrap, Sass, Javascript"
@@ -48,7 +48,7 @@ export const projects = [
     image: multistepForm,
     icon: externalLink,
     link: "https://multi-step-form-success.vercel.app/",
-    about: "Multi-Step Form is a web application that guides users through a step by step process to input and review their information. Users can easily navigate between steps, update their selections, and view a final summary before confirming. The app also features real time form validation.",
+    about: "Multi-step Form is a web application that guides users through a step by step process to input and review their information. Users can easily navigate between steps, update their selections, and view a final summary.",
     number: "04",
     title: "Multi-step Form",
     techStack: "React.js, TailwindCSS, Redux, React-Hook-Form"
