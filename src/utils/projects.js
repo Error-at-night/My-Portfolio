@@ -30,7 +30,7 @@ export const projects = [
     image: ecommerce,
     icon: externalLink,
     link: "https://frontendmentor-challenge-ecommerce-site.vercel.app/",
-    about: "This ecommerce website showcases a curated selection of clothes and footwears through an interactive lightbox gallery and thumbnail navigation. Users can add or remove items from their cart, view their cart, and receive instant toast notifications.",
+    about: "This ecommerce website showcases a curated selection of clothes and footwears through an interactive lightbox gallery and thumbnail navigation. Users can add or delete items from their cart, view their cart, and receive instant toast notifications.",
     number: "02",
     title: "Ecommerce Website",
     techStack: "React.js, React-Bootstrap, Sass, ContextAPI"
@@ -39,7 +39,7 @@ export const projects = [
     image: sushiFood,
     icon: externalLink,
     link: "https://error-at-night.github.io/Sushi-food/index/index.html",
-    about: "Sushi Food is a web application where users can explore a variety of sushi dishes, add them to their cart, and easily find their favorite dish using the search feature.",
+    about: "Sushi Food is a web application where users can explore a variety of sushi dishes, add them to their cart, delete from their cart and easily find their favorite dish using the search feature.",
     number: "03",
     title: "Sushi Food",
     techStack: "HTML, Bootstrap, Sass, Javascript"
