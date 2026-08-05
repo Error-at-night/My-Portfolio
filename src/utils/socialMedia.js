@@ -20,7 +20,7 @@ export const socialMedia = [
     title: "Github"
   },
   {
-    to: "https://x.com/ogsuccessful_",
+    to: "https://x.com/buildwitsuccess",
     image: twitter,
     title: "Twitter"
   }
