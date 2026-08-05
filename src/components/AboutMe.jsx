@@ -8,10 +8,9 @@ function AboutMe() {
       <div className="mx-auto max-w-[1200px] mt-6">
         <h1 className="text-[#FFFFFF] font-extrabold text-[1.9rem] sm:text-[2rem] md:text-[2.5rem]">About Me</h1>
         <p className="text-white text-[1rem] sm:text-[1.3rem] mt-2 sm:tracking-wide leading-normal sm:leading-loose">
-          My name is Success Olayemi, I'm Frontend Developer that is skilled in developing web applications. 
-          With a solid foundation in HTML, CSS, and JavaScript, I specialize in modern frameworks and technologies like 
-          NextJs, ReactJs, TypeScript, Redux, React-Query (TanStack), Axios, React-Hook-Form, Supabase, TailwindCSS, ShadcnUI, 
-          Bootstrap, and Git.
+          I am a Software Engineer who builds web applications. With a solid foundation in HTML, CSS, Javascript, I 
+          specialize in modern technologies like NextJs, ReactJs, Typescript. I am always open to learning other 
+          technologies to deliver the best results. 
         </p>
         <p className="text-white text-[1rem] sm:text-[1.3rem] mt-7 sm:tracking-wide leading-normal sm:leading-loose">
           I have had the opportunity to teach and mentor aspiring frontend developers, helping them understand 
