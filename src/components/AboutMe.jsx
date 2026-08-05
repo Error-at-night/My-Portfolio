@@ -13,7 +13,7 @@ function AboutMe() {
           technologies to deliver the best results. 
         </p>
         <div className="mt-5">
-          <Link to="mailto: olayemisuccess7@gmail.com" className="max-w-[150px] flex items-center justify-between px-5 pt-3 pb-3 bg-[#298E77] 
+          <Link to="mailto: olayemisuccess7@gmail.com" className="max-w-[140px] flex items-center justify-between px-5 pt-3 pb-3 bg-[#298E77] 
             text-white font-extrabold rounded-full cursor-pointer shadow-[0_0_10px_#D9D9D9C9] hover:shadow-[0_0_20px_#D9D9D9C9] 
             transition-shadow duration-300"
           >
