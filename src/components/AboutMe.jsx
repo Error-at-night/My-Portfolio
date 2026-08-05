@@ -18,7 +18,6 @@ function AboutMe() {
             transition-shadow duration-300"
           >
             <span>Send an email</span>
-            <img src={arrow} alt="arrow" className="mt-1 w-[18px] h-auto"/>
           </Link>
         </div>
         <div className="mt-8 lg:mt-4">
