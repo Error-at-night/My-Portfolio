@@ -12,13 +12,6 @@ function AboutMe() {
           specialize in modern technologies like NextJs, ReactJs, Typescript. I am always open to learning other 
           technologies to deliver the best results. 
         </p>
-        <p className="text-white text-[1rem] sm:text-[1.3rem] mt-7 sm:tracking-wide leading-normal sm:leading-loose">
-          I have had the opportunity to teach and mentor aspiring frontend developers, helping them understand 
-          modern web technologies and adopt best practices. I enjoy simplifying complex concepts and guiding others to become 
-          better developers. I am also looking forward to expanding my skills into backend development to broaden my expertise 
-          and build more robust, full-stack solutions.  I am always open to learning other frameworks and technologies to deliver 
-          the best results. Let us connect and build something amazing together.
-        </p>
         <div className="mt-5">
           <Link to="mailto: olayemisuccess7@gmail.com" className="max-w-[175px] flex items-center justify-between px-5 pt-3 pb-3 bg-[#298E77] 
             text-white font-extrabold rounded-full cursor-pointer shadow-[0_0_10px_#D9D9D9C9] hover:shadow-[0_0_20px_#D9D9D9C9] 
