@@ -22,7 +22,7 @@ function Header() {
             download
             target="_blank"
           >
-            <span>My Resume</span>
+            <span>View my resume</span>
             <img src={arrow} alt="arrow" className="mt-1 w-[18px] h-auto ms-1"/>
           </a>
         </div>
