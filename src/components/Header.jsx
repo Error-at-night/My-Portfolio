@@ -1,7 +1,7 @@
 import Navbar from "./Navbar"
 import banner from "../assets/banner.png"
 import arrow from "../assets/arrow-up-right.png"
-import cv from '../assets/Success-Olayemi-CV.pdf'
+import cv from '../assets/Success_Olayemi_CV.pdf'
 
 function Header() {
   return (
