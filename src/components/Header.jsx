@@ -15,14 +15,14 @@ function Header() {
             Hey, I am a <span className="text-[#298E77]">Software Engineer</span>. 
             Building your dream <span className="text-[#298E77]">pixel</span> by <span className="text-[#298E77]">pixel</span>!
           </h1>
-          <a className="flex justify-between items-center max-w-[160px] mx-auto mt-6 px-8 pt-3 pb-3 bg-[#298E77]
+          <a className="flex justify-between items-center max-w-[154px] mx-auto mt-6 px-5 pt-3 pb-3 bg-[#298E77]
             text-white font-extrabold rounded-full cursor-pointer shadow-[0_0_10px_#D9D9D9C9] 
             hover:shadow-[0_0_20px_#D9D9D9C9] transition-shadow duration-300"
             href={cv}
             download
             target="_blank"
           >
-            <span>View my resume</span>
+            <span>View my CV</span>
             <img src={arrow} alt="arrow" className="mt-1 w-[18px] h-auto ms-1"/>
           </a>
         </div>
