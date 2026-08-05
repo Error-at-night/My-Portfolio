@@ -10,7 +10,7 @@ function Footer(){
       </div>
       <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
         <div>
-          <p className="text-white font-extrabold text-[1.9rem] mb-2 sm:text-[2.5rem] md:text-[3rem]">Don't be a stranger 😉</p>
+          <p className="text-white font-extrabold text-[1.9rem] mb-2 sm:text-[2.5rem] md:text-[3rem]">Don't be a stranger</p>
           <Link to="mailto: olayemisuccess7@gmail.com" className="text-white
             text-[1.5rem] sm:text-[2rem] md:text-[2.2rem] lg:text-[2.5rem]"
           >
